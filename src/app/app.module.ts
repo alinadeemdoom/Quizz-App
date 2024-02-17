@@ -7,6 +7,7 @@ import { JoinPageComponent } from './pages/join-page/join-page.component';
 import { InfoPageComponent } from './pages/info-page/info-page.component';
 import { QuizPageComponent } from './pages/quiz-page/quiz-page.component';
 import { ResultPageComponent } from './pages/result-page/result-page.component';
+import { EnterPageComponent } from './pages/enter-page/enter-page.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ResultPageComponent } from './pages/result-page/result-page.component';
     JoinPageComponent,
     InfoPageComponent,
     QuizPageComponent,
-    ResultPageComponent
+    ResultPageComponent,
+    EnterPageComponent
   ],
   imports: [
     BrowserModule,
